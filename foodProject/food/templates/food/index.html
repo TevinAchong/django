@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="{% static 'food/style.css' %}">
+</head>
+<body>
+    {% for item in item_list %}
+        <ul>
+            <a href="{% url 'food:detail' item.id %}"><li>{{ item.id }} - {{ item.item_name }}</li></a>
+        </ul>
+    {% endfor %}
+</body>
+</html>

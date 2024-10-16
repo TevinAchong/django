@@ -1,0 +1,15 @@
+What is Django
+- a free and open source web application framework
+- framework - nothing but a collection of components which help us build sites faster
+- it is a backend framework
+- has automatic admin interface which supports CRUD
+
+What are models?
+- Large websites need large amount of data to be stored
+- Data for websites are stored in a database
+- Data in a database is stored in the form of tables / database tables
+- Models allow us to create database tables
+- Models are the blueprint which can be used to create database tables
+- Models are nothing but classes in Python
+- Models are created in the models.py file
+- To create a model student, simply create a class named student
